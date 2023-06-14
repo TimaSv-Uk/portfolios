@@ -7,19 +7,19 @@ function App() {
     <BrowserRouter>
       <div className='relative z-0 bg-primary '>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar/>
-          <Hero/>
+          <Navbar client:visible/>
+          <Hero />
         </div>
         <div className=''>
-          <About/>
-          <Experience/>
-          <Tech/>
-          <Works/>
-          <Feedbacks/>
+          <About client:visible/>
+          <Experience client:visible/>
+          <Tech />
+          <Works client:visible/>
+          <Feedbacks client:visible/>
         </div>
         <div className='relative z-0'>
-          <Contact/>
-          <StarsCanvas/>
+          <Contact />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
