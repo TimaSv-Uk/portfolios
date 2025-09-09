@@ -24,7 +24,66 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import php from "../assets/tech/php.png";
+import python from "../assets/tech/python.png";
+import wordpress from "../assets/tech/wordpress.png";
+import nt_aget from "../assets/nt-aget.png";
+import simple_chess_analysis from "../assets/simple-chess-analysis.png";
 
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+
+  {
+    name: "PHP",
+    icon: php,
+  },
+
+  {
+    name: "Python",
+    icon: python,
+  },
+
+  {
+    name: "WordPress",
+    icon: wordpress,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
 export const navLinks = [
   {
     id: "about",
@@ -59,60 +118,6 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
 
 const experiences = [
   {
@@ -197,48 +202,56 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
+{
+  name: "Наукове товариство анатомів, гістологів, ембріологів та топографоанатомів України",
+  description:
+    "Офіційний сайт на WordPress із власною темою та кастомним дизайном, що надає інформацію про товариство, його діяльність, новини та наукові події.",
+  tags: [
+    {
+      name: "wordpress",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "custom theme",
+      color: "green-text-gradient",
+    },
+    {
+      name: "mysql",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: nt_aget,
+  source_code_link: "https://nt-aget.com.ua/",
+},
+{
+  name: "Аналізатор шахів",
+  description:
+    "Вебзастосунок для гри в шахи з аналізом від рушія Stockfish. Додаток показує оцінку дебютів із Lichess API, дозволяє вводити власні FEN-позиції, змінювати орієнтацію дошки, переглядати історію ходів і детальний аналіз ходів. Фронтенд на React + Tailwind, бекенд на Flask із кастомним API для Stockfish.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "flask",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "stockfish",
+      color: "green-text-gradient",
+    },
+    {
+      name: "lichess api",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: simple_chess_analysis, // твій gif-файл
+  source_code_link: "https://simple-chess-analysis.netlify.app/",
+},
   {
     name: "Trip Guide",
     description:
@@ -258,7 +271,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://timasv-uk.github.io/labyrinth/",
   },
 ];
 

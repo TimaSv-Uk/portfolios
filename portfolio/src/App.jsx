@@ -15,7 +15,8 @@ function App() {
           <Experience client:visible/>
           <Tech />
           <Works client:visible/>
-          <Feedbacks client:visible/>
+          {/*<Feedbacks client:visible/>*/}
+ 
         </div>
         <div className='relative z-0'>
           <Contact />

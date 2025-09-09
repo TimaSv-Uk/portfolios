@@ -65,7 +65,7 @@ const Contact = () => {
 
   return (
     <div className="xs:mt-12 xs:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-      <motion.div variants={slideIn("left","tween",0.2,1)} className="flex-[0.75] rounded-2xl p-8 bg-black-100">
+      <motion.div /* variants={slideIn("left","tween",0.2,1)} */ className="flex-[1] rounded-2xl p-8 bg-black-100">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
@@ -86,9 +86,6 @@ const Contact = () => {
             </label>
             <button className="bg-tertiary outline-1 w-fit text-white font-bold shadow-primary py-3 px-8 rounded-xl" type="submit">{loading ? "Sending..." : "Send"}</button>
         </form>
-      </motion.div>
-      <motion.div className="flex xs:flex-1 xs:h-auto md:h-[550px] h-[350px] " variants={slideIn("right","tween",0.2,1)}>
-        <EarthCanvas/>
       </motion.div>
     </div>
   )
