@@ -5,9 +5,9 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
+      <div className=' relative z-0 bg-primary'>
+        <Navbar client:visible/>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar client:visible/>
           <Hero />
         </div>
         <div className=''>
