@@ -5,15 +5,15 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary '>
+      <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar client:visible/>
           <Hero />
         </div>
         <div className=''>
           <About client:visible/>
-          <Experience client:visible/>
           <Tech />
+          <Experience client:visible/>
           <Works client:visible/>
           {/*<Feedbacks client:visible/>*/}
  

@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 
 import { styles } from "../style";
-import { github } from "../assets";
+// import { github } from "../assets";
+import link from "../assets/link.svg";
 import { SectionWrapper } from "../hoc/index";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -13,8 +14,9 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  sourse_code_link,
+  source_code_link,
 }) => {
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -34,11 +36,11 @@ const ProjectCard = ({
         </div>
         <div className="absolute inset-0 m-3 flex justify-end card-img_hover">
           <div
-            onClick={() => window.open(sourse_code_link, "_blank")}
+            onClick={() => window.open(source_code_link, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <img
-              src={github}
+              src={link}
               alt="github"
               className="object-contain h-1/2 w-1/2"
             />
@@ -62,6 +64,7 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -84,6 +87,7 @@ const Works = () => {
       </div>
       <div className="mt-20 flex flex-wrap lg:flex-nowrap gap-7">
         {projects.map((project, index) => (
+          
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
       </div>

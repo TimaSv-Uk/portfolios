@@ -25,10 +25,13 @@ import {
   threejs,
 } from "../assets";
 import php from "../assets/tech/php.png";
+import link from "../assets/link.svg";
 import python from "../assets/tech/python.png";
 import wordpress from "../assets/tech/wordpress.png";
 import nt_aget from "../assets/nt-aget.png";
 import simple_chess_analysis from "../assets/simple-chess-analysis.png";
+import airquality from "../assets/Air-Quality-Monitoring-Web-Application.png";
+
 
 
 const technologies = [
@@ -118,8 +121,61 @@ const services = [
   },
 ];
 
-
 const experiences = [
+  {
+    title: "CS50 - Introduction to Computer Science",
+    company_name: "Harvard University",
+    icon: harvard, // you'll need to add this icon
+    iconBg: "#8B0000",
+    date: "2023",
+    points: [
+      "Completed Harvard's comprehensive introduction to computer science covering algorithms, data structures, and software engineering.",
+      "Built projects using C, Python, SQL, and web technologies including HTML, CSS, and JavaScript.",
+      "Developed problem-solving skills through challenging problem sets and a final capstone project.",
+      "Gained experience with memory management, debugging, and computational thinking.",
+    ],
+  },
+  {
+    title: "Object-Oriented Design",
+    company_name: "University of Alberta",
+    icon: alberta, // you'll need to add this icon
+    iconBg: "#00543C",
+    date: "2023",
+    points: [
+      "Mastered object-oriented programming principles including inheritance, polymorphism, and encapsulation.",
+      "Applied design patterns and software architecture principles to create maintainable code.",
+      "Developed skills in UML modeling and software design documentation.",
+      "Built complex applications demonstrating solid OOP practices and design principles.",
+    ],
+  },
+  {
+    title: "Using Databases with Python",
+    company_name: "University of Michigan",
+    icon: michigan, // you'll need to add this icon
+    iconBg: "#00274C",
+    date: "2023",
+    points: [
+      "Learned database design principles and SQL query optimization techniques.",
+      "Developed Python applications integrating with various database systems.",
+      "Implemented data modeling, normalization, and database performance optimization.",
+      "Built web applications with database backends using Python frameworks.",
+    ],
+  },
+  {
+    title: "Data Analysis Management",
+    company_name: "Johns Hopkins University",
+    icon: johns_hopkins, // you'll need to add this icon
+    iconBg: "#002D72",
+    date: "2024",
+    points: [
+      "Acquired advanced data analysis and visualization skills using modern tools and techniques.",
+      "Developed expertise in statistical analysis and data-driven decision making.",
+      "Created comprehensive data dashboards and reporting systems.",
+      "Applied data management principles to real-world datasets and projects.",
+    ],
+  },
+];
+const experiences_old = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
@@ -202,76 +258,76 @@ const testimonials = [
 ];
 
 const projects = [
-{
-  name: "Наукове товариство анатомів, гістологів, ембріологів та топографоанатомів України",
-  description:
-    "Офіційний сайт на WordPress із власною темою та кастомним дизайном, що надає інформацію про товариство, його діяльність, новини та наукові події.",
-  tags: [
-    {
-      name: "wordpress",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "custom theme",
-      color: "green-text-gradient",
-    },
-    {
-      name: "mysql",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: nt_aget,
-  source_code_link: "https://nt-aget.com.ua/",
-},
-{
-  name: "Аналізатор шахів",
-  description:
-    "Вебзастосунок для гри в шахи з аналізом від рушія Stockfish. Додаток показує оцінку дебютів із Lichess API, дозволяє вводити власні FEN-позиції, змінювати орієнтацію дошки, переглядати історію ходів і детальний аналіз ходів. Фронтенд на React + Tailwind, бекенд на Flask із кастомним API для Stockfish.",
-  tags: [
-    {
-      name: "react",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "tailwind",
-      color: "pink-text-gradient",
-    },
-    {
-      name: "flask",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "stockfish",
-      color: "green-text-gradient",
-    },
-    {
-      name: "lichess api",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: simple_chess_analysis, // твій gif-файл
-  source_code_link: "https://simple-chess-analysis.netlify.app/",
-},
   {
-    name: "Trip Guide",
+    name: "Scientific society of anatomists, histologists, embryologists and topographers of Ukraine",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An official WordPress website with a custom theme and design that provides information about the society, its activities, news, and scientific events.",
     tags: [
       {
-        name: "nextjs",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "custom theme",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://timasv-uk.github.io/labyrinth/",
+    image: nt_aget,
+    source_code_link: "https://nt-aget.com.ua/",
+  },
+  {
+    name: "Chess Analyzer",
+    description:
+      "A web application for playing and analyzing chess games using the Stockfish engine. It displays opening evaluations via the Lichess API, supports custom FEN positions, board orientation changes, move history navigation, and detailed analysis. Built with React + Tailwind frontend and a Flask backend with a custom Stockfish API.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stockfish",
+        color: "green-text-gradient",
+      },
+      {
+        name: "lichess api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: simple_chess_analysis, // your GIF file
+    source_code_link: "https://simple-chess-analysis.netlify.app/",
+  },
+  {
+    name: "Air Quality Monitor",
+    description:
+      "A web application for monitoring air quality with real-time station data, interactive dashboards, and comprehensive reports featuring visual analytics.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: airquality,
+    source_code_link: "https://github.com/your-username/air-quality-monitoring",
   },
 ];
 
