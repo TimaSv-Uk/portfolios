@@ -46,6 +46,9 @@ development, crafting applications that seamlessly blend powerful functionality 
 My curiosity drives me to continuously explore new technologies and methodologies, while my problem-solving 
 mindset helps me tackle challenges with creative, efficient solutions. I believe great software comes from 
 understanding both the technical requirements and the human needs behind every project.
+        <br/>
+        <br/>
+      When I'm not at my computer, you'll likely find me planning my next move on a chessboard or on the volleyball court.
       </motion.p>
         {/* 
       <div className="mt-20 flex flex-wrap gap-10">

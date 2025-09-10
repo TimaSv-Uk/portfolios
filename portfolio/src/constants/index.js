@@ -32,6 +32,12 @@ import nt_aget from "../assets/nt-aget.png";
 import simple_chess_analysis from "../assets/simple-chess-analysis.png";
 import airquality from "../assets/Air-Quality-Monitoring-Web-Application.png";
 
+import harvard from "../assets/company/harvard.jpg";
+import nubip from "../assets/company/nubip.png";
+import certifications from "../assets/company/cors.png";
+import ntaget from "../assets/company/ntaget.png";
+import nan from "../assets/company/nan.svg";
+
 
 
 const technologies = [
@@ -123,109 +129,68 @@ const services = [
 
 const experiences = [
   {
-    title: "CS50 - Introduction to Computer Science",
-    company_name: "Harvard University",
-    icon: harvard, // you'll need to add this icon
-    iconBg: "#8B0000",
-    date: "2023",
+      title: "CS50: A Turning Point in Computer Science",
+      company_name: "Harvard University",
+      icon: harvard,
+      iconBg: "#8B0000",
+      date: "2022",
+      points: [
+        "This course was the catalyst for my career in software engineering, transforming a curiosity into a dedicated passion.",
+        "Developed a deep, foundational understanding of computer science principles, from memory management in C to building full-stack web applications.",
+        "Solved complex, real-world problems weekly, which solidified my algorithmic thinking and honed my debugging skills.",
+        "Built a diverse portfolio of projects using C, Python, SQL, and web technologies (HTML, CSS, Flask), confirming my love for creating and problem-solving.",
+      ],
+  },
+  {
+    title: "Bachelor's Degree in NUBiP",
+    company_name: "National University of Life and Environmental Sciences of Ukraine (NUBiP)",
+    icon: nubip, // you'll need to create/add this icon
+    iconBg: "#005A3A", // A shade of green for NUBiP
+    date: "2022 - 2026 (Expected)", // Adjust start/end years as needed
     points: [
-      "Completed Harvard's comprehensive introduction to computer science covering algorithms, data structures, and software engineering.",
-      "Built projects using C, Python, SQL, and web technologies including HTML, CSS, and JavaScript.",
-      "Developed problem-solving skills through challenging problem sets and a final capstone project.",
-      "Gained experience with memory management, debugging, and computational thinking.",
+      "Applying theoretical knowledge from my curriculum to practical coding challenges and projects.",
+      "Developing a strong academic understanding of software architecture, network fundamentals, and core engineering principles.",
+      "Collaborating on academic projects, enhancing teamwork and project management skills.",
+      "Focusing my final coursework and capstone project on secure systems and web technologies to align with my career goals.",
     ],
   },
   {
-    title: "Object-Oriented Design",
-    company_name: "University of Alberta",
-    icon: alberta, // you'll need to add this icon
-    iconBg: "#00543C",
-    date: "2023",
-    points: [
-      "Mastered object-oriented programming principles including inheritance, polymorphism, and encapsulation.",
-      "Applied design patterns and software architecture principles to create maintainable code.",
-      "Developed skills in UML modeling and software design documentation.",
-      "Built complex applications demonstrating solid OOP practices and design principles.",
-    ],
+      title: "Certifications in Software Development",
+      company_name: "U of Alberta, U of Michigan, & Johns Hopkins University",
+      icon: certifications, // you'll need to create a generic icon for this
+      iconBg: "#383E45", // A neutral, professional color
+      date: "2023 - 2025",
+      points: [
+        "Mastered Object-Oriented Programming (OOP) principles and applied industry-standard design patterns to build scalable and maintainable software.",
+        "Developed proficiency in database design, data modeling, and writing optimized SQL queries for efficient data management.",
+        "Built and integrated robust database backends into full-stack Python applications.",
+        "Acquired skills in data analysis and visualization, learning to extract actionable insights from complex datasets.",
+      ],
   },
   {
-    title: "Using Databases with Python",
-    company_name: "University of Michigan",
-    icon: michigan, // you'll need to add this icon
-    iconBg: "#00274C",
-    date: "2023",
-    points: [
-      "Learned database design principles and SQL query optimization techniques.",
-      "Developed Python applications integrating with various database systems.",
-      "Implemented data modeling, normalization, and database performance optimization.",
-      "Built web applications with database backends using Python frameworks.",
-    ],
-  },
-  {
-    title: "Data Analysis Management",
-    company_name: "Johns Hopkins University",
-    icon: johns_hopkins, // you'll need to add this icon
-    iconBg: "#002D72",
+    title: "Web Developer (Freelance Project)",
+    company_name: "Scientific society of anatomists, histologists, embryologists and topographers of Ukraine",
+    icon: ntaget, // you'll need to create/add this icon
+    iconBg: "#4A4A4A", // A neutral, professional color
     date: "2024",
     points: [
-      "Acquired advanced data analysis and visualization skills using modern tools and techniques.",
-      "Developed expertise in statistical analysis and data-driven decision making.",
-      "Created comprehensive data dashboards and reporting systems.",
-      "Applied data management principles to real-world datasets and projects.",
-    ],
-  },
-];
-const experiences_old = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the full project lifecycle from initial consultation and design to development, testing, and deployment.",
+      "Developed a custom WordPress theme from scratch, translating specific client needs into a functional and visually appealing website.",
+      "Implemented features for news publication, event calendars, and dynamic content management.",
+      "Delivered a complete, easy-to-manage solution that now serves as the organization's primary digital presence.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Cryptographic System Developer",
+    company_name: "Institute of Telecommunications and Global Information Space, NAS of Ukraine",
+    icon: nan, // you'll need to create/add this icon
+    iconBg: "#0d47a1", // A professional, academic blue
+    date: "January 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently designing and developing a secure data encryption system to ensure the confidentiality and integrity of sensitive information.",
+      "Responsible for implementing advanced cryptographic algorithms and security protocols.",
+      "Architecting a resilient and secure data pipeline for handling encrypted information flows.",
+      "Collaborating with academic researchers to translate high-level security requirements into functional code.",
     ],
   },
 ];
@@ -315,15 +280,15 @@ const projects = [
     tags: [
       {
         name: "laravel",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "postgresql",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "chartjs",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: airquality,

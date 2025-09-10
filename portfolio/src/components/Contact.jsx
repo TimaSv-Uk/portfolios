@@ -32,13 +32,22 @@ const Contact = () => {
           <p className="text-secondary text-[18px] leading-[30px]">
             I'm always open to discussing new projects, creative ideas, or opportunities. The best way to reach me is by email.
           </p>
-
-          <a
-            href="mailto:sviridenkotimofei@gmail.com"
+          <div  className="flex flex-1 gap-8">
+          <div
+            href="sviridenkotimofei@gmail.com"
             className="bg-tertiary  hover:bg-[#915eff] transition-colors duration-300 w-fit text-white font-bold py-4 px-8 rounded-xl text-center text-lg shadow-primary outline-1"
           >
             sviridenkotimofei@gmail.com
+          </div>
+
+          <a
+            href="https://github.com/TimaSv-Uk"
+            className="bg-tertiary  hover:bg-[#915eff] transition-colors duration-300 w-fit text-white font-bold py-4 px-8 rounded-xl text-center text-lg shadow-primary outline-1"
+          >
+            My github
           </a>
+          </div>
+
         </div>
       </motion.div>
     </div>
