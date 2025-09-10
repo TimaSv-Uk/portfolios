@@ -19,7 +19,7 @@ const SectionWrapper = (Component, idName) => () => (
 const Contact = () => {
   return (
 
-    <div className="xs:mt-12 flex flex-col gap-10 overflow-hidden">
+    <div className="xs:mt-12 p-8 flex flex-col gap-10 overflow-hidden">
       <motion.div
         className="flex-[1] rounded-2xl p-8 bg-black-100"
         // You can uncomment slideIn if needed
@@ -32,21 +32,21 @@ const Contact = () => {
           <p className="text-secondary text-[18px] leading-[30px]">
             I'm always open to discussing new projects, creative ideas, or opportunities. The best way to reach me is by email.
           </p>
-          <div  className="flex flex-1 gap-8">
-          <div
-            href="sviridenkotimofei@gmail.com"
-            className="bg-tertiary  hover:bg-[#915eff] transition-colors duration-300 w-fit text-white font-bold py-4 px-8 rounded-xl text-center text-lg shadow-primary outline-1"
-          >
-            sviridenkotimofei@gmail.com
-          </div>
+            <div className="flex flex-col sm:flex-row gap-4 items-start">
+              <a
+                href="mailto:sviridenkotimofei@gmail.com"
+                className="bg-tertiary hover:bg-[#915eff] transition-colors duration-300 w-full sm:w-auto text-white font-bold py-3 px-6 rounded-xl text-left text-sm sm:text-lg shadow-primary outline-1 truncate"
+              >
+                sviridenkotimofei@gmail.com
+              </a>
 
-          <a
-            href="https://github.com/TimaSv-Uk"
-            className="bg-tertiary  hover:bg-[#915eff] transition-colors duration-300 w-fit text-white font-bold py-4 px-8 rounded-xl text-center text-lg shadow-primary outline-1"
-          >
-            My github
-          </a>
-          </div>
+              <a
+                href="https://github.com/TimaSv-Uk"
+                className="bg-tertiary hover:bg-[#915eff] transition-colors duration-300 w-full sm:w-auto text-white font-bold py-3 px-6 rounded-xl text-left text-sm sm:text-lg shadow-primary outline-1 truncate"
+              >
+                My Github
+              </a>
+            </div>
 
         </div>
       </motion.div>
