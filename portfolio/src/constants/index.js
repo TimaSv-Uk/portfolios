@@ -12,8 +12,7 @@ import {
   nodejs,
   git,
   figma,
-  docker,
-  carrent,
+  docker
 } from "../assets";
 import php from "../assets/tech/php.png";
 import link from "../assets/link.svg";
