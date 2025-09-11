@@ -13,7 +13,7 @@ function App() {
         <div className=''>
           <About client:visible/>
           <Tech />
-          <Experience client:visible/>
+          <Experience/>
           <Works client:visible/>
           {/*<Feedbacks client:visible/>*/}
  

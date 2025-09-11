@@ -26,14 +26,14 @@ const Hero = () => {
           </div>
         </div>
         {/* Earth Canvas Section */}
-        <motion.div
+        <div
           className="flex xs:flex-1 xs:h-auto sm:h-[400px]  md:h-[400px] h-[300px]"
           variants={slideIn("right", "tween", 0.2, 1)}
           initial="hidden"
           animate="show"
         >
           <EarthCanvas />
-        </motion.div>
+        </div>
       </div>
     </section>
   );

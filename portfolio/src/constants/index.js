@@ -8,33 +8,24 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
-  jobit,
-  tripguide,
-  threejs,
 } from "../assets";
 import php from "../assets/tech/php.png";
 import link from "../assets/link.svg";
 import python from "../assets/tech/python.png";
-import wordpress from "../assets/tech/wordpress.png";
+import wordpress from "../assets/tech/wordpress.jpg";
 import nt_aget from "../assets/nt-aget.png";
 import simple_chess_analysis from "../assets/simple-chess-analysis.png";
 import airquality from "../assets/Air-Quality-Monitoring-Web-Application.png";
 
 import harvard from "../assets/company/harvard.jpg";
 import nubip from "../assets/company/nubip.png";
-import certifications from "../assets/company/cors.png";
+import certifications from "../assets/company/certifications.png";
 import ntaget from "../assets/company/ntaget.png";
 import nan from "../assets/company/nan.svg";
 

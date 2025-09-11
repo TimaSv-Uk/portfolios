@@ -7,8 +7,9 @@ import { SectionWrapper } from '../hoc/index';
 
 
 const Tech = () => {
+  console.log(technologies)
   return (
-
+  
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       {technologies.map((technologie) =>(
           <div key={technologie.name}
