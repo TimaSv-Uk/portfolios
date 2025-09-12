@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://github.com/TimaSv-Uk/portfolio/",
+  "homepage": "https://github.com/TimaSv-Uk/portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,6 +20,7 @@
     "maath": "^0.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-error-boundary": "^6.0.0",
     "react-router-dom": "^6.12.1",
     "react-tilt": "^1.0.2",
     "three": "^0.153.0"

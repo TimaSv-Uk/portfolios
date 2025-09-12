@@ -2,7 +2,7 @@ import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { slideIn } from "../utils/motion";
-import { EarthCanvas } from "./canvas";
+import { EarthCanvas,BigBushCanvas } from "./canvas";
 
 const Hero = () => {
   return (

@@ -17,7 +17,7 @@ import {
 import php from "../assets/tech/php.png";
 import link from "../assets/link.svg";
 import python from "../assets/tech/python.png";
-import wordpress from "../assets/tech/wordpress.jpg";
+import wordpress from "../assets/tech/wordpress.png";
 import nt_aget from "../assets/nt-aget.png";
 import simple_chess_analysis from "../assets/simple-chess-analysis.png";
 import airquality from "../assets/Air-Quality-Monitoring-Web-Application.png";
