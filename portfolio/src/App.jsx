@@ -12,6 +12,7 @@ function App() {
         </div>
         <div className=''>
           <About client:visible/>
+          
           <Tech />
           <Experience/>
           <Works client:visible/>

@@ -22,10 +22,10 @@ import nt_aget from "../assets/nt-aget.png";
 import simple_chess_analysis from "../assets/simple-chess-analysis.png";
 import airquality from "../assets/Air-Quality-Monitoring-Web-Application.png";
 
-import harvard from "../assets/company/harvard.jpg";
-import nubip from "../assets/company/nubip.png";
-import certifications from "../assets/company/certifications.png";
-import ntaget from "../assets/company/ntaget.png";
+import harvard from "../assets/company/harvard-min.jpg";
+import nubip from "../assets/company/nubip-min.png";
+import certifications from "../assets/company/certifications-min.png";
+import ntaget from "../assets/company/ntaget-min.png";
 import nan from "../assets/company/nan.svg";
 
 
