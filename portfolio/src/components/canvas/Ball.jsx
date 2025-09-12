@@ -50,11 +50,8 @@ function ModelErrorFallback({ error }) {
 
 
 const BallCanvas = ({icon}) => {
-  return(
 
-    <img src={icon} alt="Failed texture" style={{ maxWidth: "100px" }} />
-
-        {/* 
+      {/* 
     <ErrorBoundary FallbackComponent={({ error }) => (
       <div style={{ textAlign: "center", color: "red" }}>
         <p>⚠️ Failed to load 3D model of a ball</p>
@@ -77,6 +74,11 @@ const BallCanvas = ({icon}) => {
         </Canvas>
     </ErrorBoundary>
         */}
+  return(
+    <div>
+        <img src={icon} alt="tech icon" style={{ maxWidth: "100px" }} />
+    </div>
+
   )
 }
 
