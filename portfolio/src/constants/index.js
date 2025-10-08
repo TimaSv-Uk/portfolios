@@ -282,7 +282,7 @@ const projects = [
       },
     ],
     image: airquality,
-    source_code_link: "https://github.com/your-username/air-quality-monitoring",
+    source_code_link: "https://github.com/TimaSv-Uk/Air-Quality-Monitoring-Web-Application",
   },
 ];
 
